@@ -1,0 +1,62 @@
+body {
+    
+}
+
+.blue-box {
+    background-color: #1f2937ee;
+    padding: 0 140px 50px 140px;
+    margin: 0;
+}
+
+ul, .second {
+    color: #e5e7eb;
+}
+
+.logo {
+    color: #e5e7eb;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+} 
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.placeholder {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
+
+.text {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+button {
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+}
