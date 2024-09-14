@@ -1,6 +1,12 @@
 body {
     
 }
+/* .blue-box, .white-box, .grey-box .last-box {
+    height: 500px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
 
 .blue-box {
     background-color: #1f2937ee;
@@ -38,6 +44,7 @@ ul {
 .second {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .placeholder {
@@ -53,7 +60,7 @@ ul {
     flex-shrink: 0;
 }
 
-button {
+.sign-up {
     background-color: #3882F6;
     font-weight: bold;
     color: white;
@@ -70,12 +77,14 @@ button {
 
 .white-box {
     padding-bottom: 50px;
+    height: 450px;
+    box-sizing: border-box;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 80px;
 }
 
 .square {
@@ -94,4 +103,78 @@ h2 {
     padding: 25px 0 25px 0;
     font-weight: 900;
     font-size: 36px;
+}
+
+.grey-box {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 100px 230px 100px 350px;    
+}
+
+.quote-box {
+    padding: 0;
+    margin: 0;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.autor {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.last-box {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 50px 200px;
+}
+
+.inner-box {
+    background-color: #3882F6;
+    color: white;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 200px;
+    border-radius: 10px;
+}
+
+
+.inner-box h4, .inner-box p {
+    padding: 0;
+    margin: 0;
+    text-wrap: nowrap;
+}
+h4 {
+    font-size: 20px;
+}
+
+.inner-box p {
+    margin-top: 7px;
+}
+
+.sign-down {
+    border: 1px solid white;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    align-self: center;
+    text-wrap: nowrap;
+}
+
+.footer {
+    background-color: #1f2937ee;
+    height: 75px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
