@@ -51,6 +51,9 @@ ul {
     width: 500px;
     height: 200px;
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text {
@@ -83,7 +86,7 @@ ul {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 80px;
 }
 
@@ -118,6 +121,7 @@ h2 {
 
 .quote {
     font-style: italic;
+    min-width: fit-content;
 }
 
 .autor {
